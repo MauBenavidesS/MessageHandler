@@ -1,4 +1,4 @@
-# Checking the Functionality
+# Module Functionality
 
 This module includes functions to facilitate communication with a device by generating request messages and parsing response messages. It provides three main functions: generate_request_message, parse_din_status_response, and din_status_to_32bit_signed_integer. These functions ensure the interaction with the device adheres to the specified communication protocol.
 
@@ -11,4 +11,4 @@ For the parse_din_status_response function, input a response message byte string
 ## Convert DIN Status to 32-bit Signed Integer
 To test the din_status_to_32bit_signed_integer function, input an array of integer values representing the DIN status. The function converts this array into a 32-bit signed integer. Ensure the input array length is within 32 bits and verify the output integer accurately represents the combined bit values, taking into account the sign bit and ensuring it is within the 32-bit signed integer range.
 
-By following these steps, you can confirm that each function performs as expected, facilitating effective communication with the device.
+Following these steps and requirements will ensure that each function is correctly generating and parsing messages, facilitating effective communication with the device.
